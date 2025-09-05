@@ -82,11 +82,7 @@ export default function Home() {
                                     </p>
                                     <div className="flex items-center justify-between">
                                         <span className="text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
-                                            {post.createdAt ? new Date(post.createdAt).toLocaleDateString('en-US', {
-                                                year: 'numeric',
-                                                month: 'short',
-                                                day: 'numeric'
-                                            }) : 'Recent'}
+                                            { 'Recent'}
                                         </span>
                                         <span className="text-blue-600 font-semibold group-hover:text-blue-700 transition-colors flex items-center">
                                             Read more 

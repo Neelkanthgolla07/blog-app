@@ -49,7 +49,7 @@ export default function CreatePost() {
             console.error("Error creating post:", error);
         } finally {
             setLoading(false);
-             redirect('/home');
+            redirect('/home');
         }
     };
 
